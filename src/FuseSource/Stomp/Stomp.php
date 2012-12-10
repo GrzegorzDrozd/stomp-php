@@ -558,7 +558,7 @@ class Stomp
             return false;
         }
 
-        $rb = 1024;
+        $rb = 1;
         $data = '';
         $end = false;
 
