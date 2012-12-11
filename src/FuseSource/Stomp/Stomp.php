@@ -73,9 +73,9 @@ class Stomp
     protected $_username = '';
     protected $_password = '';
     protected $_sessionId;
-    protected $_read_timeout_seconds = 60;
+    protected $_read_timeout_seconds = 3;
     protected $_read_timeout_milliseconds = 0;
-    protected $_connect_timeout_seconds = 60;
+    protected $_connect_timeout_seconds = 8;
     protected $_waitbuf = array();
 
     /**
